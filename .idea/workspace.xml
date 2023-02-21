@@ -4,11 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08e6eddf-8c98-434a-a97b-c04d9bcdd44e" name="Changes" comment="" />
+    <list default="true" id="08e6eddf-8c98-434a-a97b-c04d9bcdd44e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/TicketSearch/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/TicketSearch/TicketManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/TicketSearch/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/TicketSearch/ManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/TicketSearch/RepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,9 +48,108 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "D:/Java.Netology/TicketSearch/src/test/java"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test" />
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ManagerTest.saveTicket">
+    <configuration name="ManagerTest.listIfNoMatchByDeparture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicketSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.TicketSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.TicketSearch" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.TicketSearch.ManagerTest" />
+      <option name="METHOD_NAME" value="listIfNoMatchByDeparture" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.listIfThereAreNoMatchesOnArrival" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicketSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.TicketSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.TicketSearch" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.TicketSearch.ManagerTest" />
+      <option name="METHOD_NAME" value="listIfThereAreNoMatchesOnArrival" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.listSuitableForDepartureAndArrival" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicketSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.TicketSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.TicketSearch" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.TicketSearch.ManagerTest" />
+      <option name="METHOD_NAME" value="listSuitableForDepartureAndArrival" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManagerTest.saveTicket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicketSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.TicketSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.TicketSearch" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.TicketSearch.ManagerTest" />
+      <option name="METHOD_NAME" value="saveTicket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepositoryTest.addingTicket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicketSearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.TicketSearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.TicketSearch" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.TicketSearch.RepositoryTest" />
+      <option name="METHOD_NAME" value="addingTicket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ManagerTest.saveTicket" />
+        <item itemvalue="JUnit.ManagerTest.listSuitableForDepartureAndArrival" />
+        <item itemvalue="JUnit.ManagerTest.listIfNoMatchByDeparture" />
+        <item itemvalue="JUnit.ManagerTest.listIfThereAreNoMatchesOnArrival" />
+        <item itemvalue="JUnit.RepositoryTest.addingTicket" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
